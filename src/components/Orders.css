@@ -1,0 +1,85 @@
+/* Center the main order container and set width */
+.order-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.order-summary {
+  width: 60%;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header alignment for Order ID, Date, and Total */
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.order-header p {
+  margin: 0;
+}
+
+/* Each order item styling */
+.order-items {
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.order-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.order-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.order-item-details {
+  flex: 1;
+  padding-left: 15px;
+}
+
+.item-name {
+  font-weight: bold;
+  margin: 0;
+}
+
+.item-description {
+  color: #888;
+  font-size: 0.9em;
+}
+
+.item-price {
+  font-weight: bold;
+}
+
+/* Track Order button styling */
+.track-order-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #ff4b4b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.track-order-btn:hover {
+  background-color: #e04343;
+}

@@ -1,0 +1,155 @@
+.product-details-page {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .breadcrumb {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 20px;
+  }
+  
+  .product-details {
+    display: flex;
+    padding: 40px 0;
+    gap: 30px;
+  }
+  
+  .product-image {
+    flex: 1;
+  }
+  
+  .product-image img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .thumbnail-images {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .thumbnail-images img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .product-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-info h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .product-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .product-description {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+  
+  .product-features {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+  }
+  
+  .product-features li {
+    font-size: 0.9rem;
+    margin: 5px 0;
+  }
+  
+  .quantity {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .quantity button {
+    background: #ddd;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .quantity input {
+    width: 40px;
+    text-align: center;
+    margin: 0 5px;
+  }
+  
+  .add-to-cart {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .wishlist {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #333;
+    border: 1px solid #333;
+    cursor: pointer;
+  }
+  
+  .product-extra-info {
+    margin-top: 40px;
+  }
+  
+  .tabs {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .tab {
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+    cursor: pointer;
+  }
+  
+  .tab.active {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .related-products {
+    margin-top: 40px;
+  }
+  
+  .related-products h3 {
+    font-size: 1.5rem;
+  }
+  
+  .related-products-list {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .related-product-card {
+    text-align: center;
+    width: 180px;
+  }
+  
+  .related-product-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  

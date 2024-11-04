@@ -1,0 +1,29 @@
+.products-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.products-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.products-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product-card {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  width: 400px !important;
+  height: 400px !important;
+}
+
+.product-card img{
+ width: 300px !important;
+ height: 300px !important;
+}

@@ -1,0 +1,49 @@
+.home-banner {
+    background-image: url('../assets/images/sofa_banner.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 20px;
+    height: 800px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+  }
+  
+  .home-banner-content {
+    margin-left: 40%;
+    background-color: rgba(60, 60, 60, 0.8);
+    padding: 30px;
+    color: white;
+    border-radius: 8px;
+    max-width: 400px;
+  }
+  
+  .home-banner-content h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #f5f5f5;
+  }
+  
+  .home-banner-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #ddd;
+  }
+  
+  .home-banner-button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .home-banner-button:hover {
+    background-color: #ddd;
+  }
+  

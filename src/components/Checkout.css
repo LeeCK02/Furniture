@@ -1,0 +1,113 @@
+.checkout-page {
+    padding: 20px;
+  }
+  
+  .checkout-page h2 {
+    font-size: 2rem;
+  }
+  
+  .continue-shopping {
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+    color: #000;
+    text-decoration: underline;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .checkout-content {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .checkout-form, .payment-method, .order-summary {
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  .checkout-form, .payment-method {
+    width: 33%;
+  }
+  
+  .order-summary {
+    width: 34%;
+  }
+  
+  .form-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"], input[type="email"], select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .payment-option {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .credit-card-fields input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+  }
+  
+  .summary-items {
+    margin-bottom: 20px;
+  }
+  
+  .summary-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .summary-item img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .summary-item-details {
+    flex: 1;
+  }
+  
+  .item-price {
+    font-weight: bold;
+  }
+  
+  .voucher-section, .summary-totals, .terms-section {
+    margin-top: 15px;
+  }
+  
+  .redeem-btn, .checkout-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .checkout-btn {
+    margin-top: 20px;
+  }
+  
+  .total {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
